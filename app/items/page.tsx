@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowRightIcon, PlusIcon, GiftIcon } from '@heroicons/react/24/outline';
 
-const API = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000';
+const API = process.env.NEXT_PUBLIC_API_URL || 'https://sinanserverside.vercel.app';
 
 async function getItems() {
   try {

@@ -5,7 +5,7 @@ import toast from 'react-hot-toast';
 import { getCurrentUser } from '@/lib/auth';
 import { PhotoIcon, CheckCircleIcon } from '@heroicons/react/24/outline';
 
-const API = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000';
+const API = process.env.NEXT_PUBLIC_API_URL || 'https://sinanserverside.vercel.app';
 const CLOUDINARY_NAME = process.env.NEXT_PUBLIC_CLOUDINARY_NAME || 'dmz9jzdtm';
 const CLOUDINARY_UPLOAD_PRESET = process.env.NEXT_PUBLIC_CLOUDINARY_UPLOAD_PRESET || 'monochrome_shop';
 
